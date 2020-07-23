@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!--folha de estilo-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- cabecalho-->
+    <div id="conteudo">
+        <div id="hdr"><h1>Calculator 1.1</h1></div>
+        <!-- margem de ajuste-->
+            <div id="marg">
+                <!-- colunas e linhas dos botoes da calculadora-->
+                <div class="col">
+                    <button id="c" class="btn" >C</button>
+                    <button id="maismenos"class="btn">+/-</button>
+                    <button id="porcento" class="btn">%</button>
+                    <button id="del" class="btn">DEL</button>
+                </div>
+                <div class="col">
+                    <button id="7" class="btn">7</button>
+                    <button id="8" class="btn">8</button>
+                    <button id="9" class="btn">9</button>
+                    <button id="div" class="btn">/</button>
+                </div>
+                <div class="col">
+                    <button  id="4" class="btn">4</button>
+                    <button  id="5" class="btn">5</button>
+                    <button  id="6" class="btn">6</button>
+                    <button  id="asterisco"class="btn">*</button>
+                </div>
+                <div class="col">
+                    <button id="1" value="1" class="btn" onclick="valor(this.value);">1</button>
+                    <button id="2"class="btn" onclick="valor(this.innerHTML);">2</button>
+                    <button id="3" class="btn">3</button>
+                    <button id="menos" class="btn">-</button>
+                </div>
+                <div class="col">
+                    <button  id="0" class="btn">0</button>
+                    <button  id="ponto"class="btn">.</button>
+                    <button  id="igual" class="btn">=</button>
+                    <button  id="mais" class="btn">+</button>
+                </div>
+            </div>
+            <!-- mostrar o resultado-->
+        <div id="resultado">
+            <input id="tela" type="text" value="">
+                OLa
+            </input>
+        </div>
+    </div>
+    <script>
+        /* busncado formas de chamar o valor do botao tato pelo html ou pelo value  */
+        /* definido pelo html*/
+    function valor(resultado) {
+        /*  o #ID tela recebe o resultado dos botoes*/
+        var fator1 = document.getElementById('tela');
+        fator1 = document.write(resultado)
+        
+        
+        factor1.innerHTML + factor2.innerHTML;
+    }
+
+    </script>
+</body>
+</html>

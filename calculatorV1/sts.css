@@ -1,0 +1,75 @@
+body {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+
+}
+#txtn1 {
+    height:60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#txtn2 {
+    height:60px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+#conteudo {
+    text-align: center;
+    background-color: rgb(17, 0, 112); /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, rgb(16, 104, 236), rgb(255, 72, 255)); /* Standard syntax (must be last) */
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+}
+
+#hdr {
+    text-align: center;
+    background-color: rgb(197, 194, 194);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 92, 92);
+}
+
+#marg {
+    margin-bottom: 10px;}
+
+#fatores {
+    margin-bottom: 10px;
+    }
+
+/* botao estilo */    
+.btn {
+    background-color: #e7e7e7; color: black;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 115px;
+}
+
+#res {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 72, 255);
+}
+#res_subitrair {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 72, 255);
+}
+#res_dividir {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 72, 255);
+}
+#res_multiplicar {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 72, 255);
+}
